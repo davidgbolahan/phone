@@ -1,0 +1,44 @@
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.list li img{
+    width: 50px !important;
+}
+
+.card{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card button{
+    border-color: blue;
+}
+
+.card button:hover{
+    border-color: beige;
+}
+
+.car-img {
+    width: 500px;
+    height: 300px;
+    border: 1px;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px; ;
+}
+
+.car-img {
+    width: 300;
+    height: 200px;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+}
